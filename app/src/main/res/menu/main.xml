@@ -10,20 +10,17 @@
     <item
         android:id="@+id/share"
         android:title="সেয়ার করুন"
-        android:icon="@drawable/share"
-        app:showAsAction="ifRoom" />
+        android:icon="@drawable/ic_share"
+        app:showAsAction="never" />
 
     <item
         android:id="@+id/more"
-        android:title="আরো অ্যাপস"
+        android:title="More Apps"
         app:showAsAction="never" />
-    <item
-        android:id="@+id/feedback"
-        android:title="ফিড ব্যাগ"
-        app:showAsAction="never" />
+
 
     <item
         android:id="@+id/exit"
-        android:title="বের হতে চান.?"
+        android:title="Exit.?"
         app:showAsAction="never" />
 </menu>

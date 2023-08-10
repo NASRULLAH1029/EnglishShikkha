@@ -6,40 +6,40 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/home"
-            android:icon="@drawable/home"
+            android:icon="@drawable/ic_home_black_24dp"
             android:title="@string/app_name" />
 
 
         <item
             android:id="@+id/share"
-            android:icon="@drawable/share_1"
-            android:title="শেয়ার করুন" />
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="Share App" />
 
         <item
             android:id="@+id/update"
-            android:icon="@drawable/update"
-            android:title="আপডেট করুন" />
+            android:icon="@drawable/ic_update_black_24dp"
+            android:title="Update" />
 
 
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="In This App Extra">
         <menu>
             <item
                 android:id="@+id/rate"
-                android:icon="@drawable/rate"
-                android:title="রেটিং দিন" />
+                android:icon="@drawable/ic_star_half_black_24dp"
+                android:title="Rating App" />
 
 
             <item
                 android:id="@+id/more"
-                android:icon="@drawable/more"
-                android:title="আমাদের অন্যান্য অ্যাপস" />
+                android:icon="@drawable/ic_view_comfy_black_24dp"
+                android:title="Get More Apps" />
 
             <item
                 android:id="@+id/exit"
                 android:icon="@drawable/exit"
-                android:title="বের হতে চান.?" />
+                android:title="Exit.?" />
         </menu>
     </item>
 
