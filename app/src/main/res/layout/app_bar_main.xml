@@ -23,7 +23,7 @@
         android:background="?attr/colorPrimary"
         app:layout_anchor="@+id/appBarLayout"
         app:layout_anchorGravity="center"
+        android:theme="@style/MyToolbar"
         app:popupTheme="@style/AppTheme.PopupOverlay" />
-
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
