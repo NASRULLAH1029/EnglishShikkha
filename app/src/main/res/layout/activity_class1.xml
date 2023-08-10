@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fast_Activity">
+    tools:context=".class_1">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -20,9 +20,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/two_color_curved"
-                android:fontFamily="@font/regular"
                 android:gravity="center"
-                android:text="প্রথমেই যেটা করতে হবে"
+                android:text="প্রথম ক্লাস"
+                android:fontFamily="@font/regular"
                 android:textColor="@color/white"
                 android:textSize="30sp"
                 android:textStyle="bold" />
@@ -30,11 +30,11 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:fontFamily="@font/kalpurush"
-                android:text="@string/a1"
+                android:layout_marginTop="20dp"
+                android:text="@string/a9"
                 android:textColor="@color/black"
                 android:textSize="20sp"
+                android:fontFamily="@font/kalpurush"
                 android:textStyle="normal" />
 
             <TextView
@@ -42,12 +42,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:background="@drawable/two_color_curved"
-                android:fontFamily="@font/regular"
-                android:gravity="center"
+                android:text="তো শুরু করা যাক আজকের ক্লাস (১ম ক্লাস)।"
                 android:padding="5dp"
-                android:text="@string/a2"
+                android:gravity="center"
                 android:textColor="@color/white"
-                android:textSize="30sp"
+                android:textSize="25sp"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/regular"
                 android:textStyle="bold" />
 
 
@@ -55,8 +56,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="@font/kalpurush"
-                android:text="@string/a3"
+                android:text=""
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="normal" />
@@ -66,8 +66,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="@font/kalpurush"
-                android:text="@string/a4"
+                android:text=""
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="normal" />
@@ -76,8 +75,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="@font/kalpurush"
-                android:text="@string/a5"
+                android:text=""
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="normal" />
@@ -86,8 +84,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="@font/kalpurush"
-                android:text="@string/a6"
+                android:text=""
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="normal" />
@@ -96,8 +93,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="@font/kalpurush"
-                android:text="@string/a7"
+                android:text=""
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="normal" />
@@ -106,8 +102,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:fontFamily="@font/kalpurush"
-                android:text="@string/a8"
+                android:text=""
                 android:textColor="@color/black"
                 android:textSize="20sp"
                 android:textStyle="normal" />
@@ -116,5 +111,6 @@
         </LinearLayout>
 
     </ScrollView>
+
 
 </RelativeLayout>
