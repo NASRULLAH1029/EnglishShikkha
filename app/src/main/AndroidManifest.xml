@@ -13,6 +13,27 @@
         android:theme="@style/AppTheme"
         tools:targetApi="31">
         <activity
+            android:name=".class_12"
+            android:exported="false" />
+        <activity
+            android:name=".class_11"
+            android:exported="false" />
+        <activity
+            android:name=".class_10"
+            android:exported="false" />
+        <activity
+            android:name=".class_9"
+            android:exported="false" />
+        <activity
+            android:name=".class_8"
+            android:exported="false" />
+        <activity
+            android:name=".class_7"
+            android:exported="false" />
+        <activity
+            android:name=".class_6"
+            android:exported="false" />
+        <activity
             android:name=".class_5"
             android:exported="false" />
         <activity

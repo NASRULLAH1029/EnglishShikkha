@@ -31,7 +31,7 @@ import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
-    LinearLayout layout_1, layout_2, layout_3, layout_4, layout_5, layout_6, layout_7, layout_8, layout_9, layout_10, layout_11, layout_12;
+    LinearLayout layout_1, layout_2, layout_3, layout_4, layout_5, layout_6, layout_7, layout_8, layout_9, layout_10, layout_11, layout_12, layout_13, layout_14, layout_15, layout_16, layout_17, layout_18, layout_19, layout_20, layout_21, layout_22, layout_23, layout_24, layout_25, layout_26, layout_27, layout_28, layout_29, layout_30, layout_31;
     private AdView adView;
     private InterstitialAd interstitialAd;
     private final String TAG = MainActivity.class.getSimpleName();
@@ -60,13 +60,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         AudienceNetworkAds.initialize(this);
 
 
-        adView = new AdView(this, "1302106274017768_1302106604017735", AdSize.BANNER_HEIGHT_50);
+        adView = new AdView(this, "...................................", AdSize.BANNER_HEIGHT_50);
         LinearLayout adContainer = (LinearLayout) findViewById(R.id.banner_container);
         adContainer.addView(adView);
         adView.loadAd();
 
 
-        interstitialAd = new InterstitialAd(this, "1302106274017768_1302106767351052");
+        interstitialAd = new InterstitialAd(this, "...........................");
         InterstitialAdListener interstitialAdListener = new InterstitialAdListener() {
             @Override
             public void onInterstitialDisplayed(Ad ad) {
@@ -121,6 +121,25 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         layout_10 = (LinearLayout) findViewById(R.id.btn_10);
         layout_11 = (LinearLayout) findViewById(R.id.btn_11);
         layout_12 = (LinearLayout) findViewById(R.id.btn_12);
+        layout_13 = (LinearLayout) findViewById(R.id.btn_13);
+        layout_14 = (LinearLayout) findViewById(R.id.btn_14);
+        layout_15 = (LinearLayout) findViewById(R.id.btn_15);
+        layout_16 = (LinearLayout) findViewById(R.id.btn_16);
+        layout_17 = (LinearLayout) findViewById(R.id.btn_17);
+        layout_18 = (LinearLayout) findViewById(R.id.btn_18);
+        layout_19 = (LinearLayout) findViewById(R.id.btn_19);
+        layout_20 = (LinearLayout) findViewById(R.id.btn_20);
+        layout_21 = (LinearLayout) findViewById(R.id.btn_21);
+        layout_22 = (LinearLayout) findViewById(R.id.btn_22);
+        layout_23 = (LinearLayout) findViewById(R.id.btn_23);
+        layout_24 = (LinearLayout) findViewById(R.id.btn_24);
+        layout_25 = (LinearLayout) findViewById(R.id.btn_25);
+        layout_26 = (LinearLayout) findViewById(R.id.btn_26);
+        layout_27 = (LinearLayout) findViewById(R.id.btn_27);
+        layout_28 = (LinearLayout) findViewById(R.id.btn_28);
+        layout_29 = (LinearLayout) findViewById(R.id.btn_29);
+        layout_30 = (LinearLayout) findViewById(R.id.btn_30);
+        layout_31 = (LinearLayout) findViewById(R.id.btn_31);
 
 
         layout_1.setOnClickListener(new View.OnClickListener() {
@@ -185,7 +204,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         layout_6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, info.class);
+                Intent intent = new Intent(MainActivity.this, class_5.class);
                 startActivity(intent);
                 Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
                 toast.show();
@@ -197,7 +216,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         layout_7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, info.class);
+                Intent intent = new Intent(MainActivity.this, class_6.class);
                 startActivity(intent);
                 Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
                 toast.show();
@@ -209,7 +228,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         layout_8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, info.class);
+                Intent intent = new Intent(MainActivity.this, class_7.class);
                 startActivity(intent);
                 Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
                 toast.show();
@@ -221,7 +240,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         layout_9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, info.class);
+                Intent intent = new Intent(MainActivity.this, class_8.class);
                 startActivity(intent);
                 Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
                 toast.show();
@@ -233,7 +252,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         layout_10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, info.class);
+                Intent intent = new Intent(MainActivity.this, class_9.class);
                 startActivity(intent);
                 Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
                 toast.show();
@@ -245,7 +264,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         layout_11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, info.class);
+                Intent intent = new Intent(MainActivity.this, class_10.class);
                 startActivity(intent);
                 Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
                 toast.show();
@@ -257,7 +276,202 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         layout_12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, info.class);
+                Intent intent = new Intent(MainActivity.this, class_11.class);
+                startActivity(intent);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
+                toast.show();
+
+            }
+        });
+
+
+        layout_13.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, class_12.class);
+                startActivity(intent);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
+                toast.show();
+
+            }
+        });
+
+        layout_14.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, class_13.class);
+                startActivity(intent);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
+                toast.show();
+
+            }
+        });
+
+        layout_15.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, class_11.class);
+                startActivity(intent);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
+                toast.show();
+
+            }
+        });
+
+        layout_16.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, class_11.class);
+                startActivity(intent);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
+                toast.show();
+
+            }
+        });
+        layout_17.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, class_11.class);
+                startActivity(intent);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
+                toast.show();
+
+            }
+        });
+        layout_18.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, class_11.class);
+                startActivity(intent);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
+                toast.show();
+
+            }
+        });
+        layout_19.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, class_11.class);
+                startActivity(intent);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
+                toast.show();
+
+            }
+        });
+        layout_20.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, class_11.class);
+                startActivity(intent);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
+                toast.show();
+
+            }
+        });
+        layout_21.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, class_11.class);
+                startActivity(intent);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
+                toast.show();
+
+            }
+        });
+        layout_22.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, class_11.class);
+                startActivity(intent);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
+                toast.show();
+
+            }
+        });
+        layout_23.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, class_11.class);
+                startActivity(intent);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
+                toast.show();
+
+            }
+        });
+        layout_24.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, class_11.class);
+                startActivity(intent);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
+                toast.show();
+
+            }
+        });
+        layout_25.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, class_11.class);
+                startActivity(intent);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
+                toast.show();
+
+            }
+        });
+        layout_26.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, class_11.class);
+                startActivity(intent);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
+                toast.show();
+
+            }
+        });
+        layout_27.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, class_11.class);
+                startActivity(intent);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
+                toast.show();
+
+            }
+        });
+        layout_28.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, class_11.class);
+                startActivity(intent);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
+                toast.show();
+
+            }
+        });
+        layout_29.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, class_11.class);
+                startActivity(intent);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
+                toast.show();
+
+            }
+        });
+        layout_30.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, class_11.class);
+                startActivity(intent);
+                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
+                toast.show();
+
+            }
+        });
+        layout_31.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, class_11.class);
                 startActivity(intent);
                 Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
                 toast.show();
