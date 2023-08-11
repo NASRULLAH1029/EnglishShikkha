@@ -141,7 +141,7 @@
                             android:layout_margin="5dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
-                            android:text="ইংরেজীতে কথা বলা (১ম ক্লাস)"
+                            android:text="ইংরেজীতে কথা বলা (২য় ক্লাস)"
                             android:textColor="@color/black"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -179,7 +179,7 @@
                             android:layout_margin="5dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
-                            android:text="ইংরেজীতে কথা বলা (১ম ক্লাস)"
+                            android:text="ইংরেজীতে কথা বলা (৩য় ক্লাস)"
                             android:textColor="@color/black"
                             android:textSize="20sp"
                             android:textStyle="bold" />

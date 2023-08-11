@@ -148,7 +148,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         layout_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, info.class);
+                Intent intent = new Intent(MainActivity.this, class_2.class);
                 startActivity(intent);
                 Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
                 toast.show();
@@ -160,7 +160,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         layout_4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, info.class);
+                Intent intent = new Intent(MainActivity.this, calss_3.class);
                 startActivity(intent);
                 Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
                 toast.show();

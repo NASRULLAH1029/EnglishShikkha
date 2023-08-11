@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".class_1">
+    tools:context=".calss_3">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,7 +27,7 @@
                     android:background="@drawable/two_color_curved"
                     android:fontFamily="@font/regular"
                     android:gravity="center"
-                    android:text="প্রথম ক্লাস"
+                    android:text=" ত্বিতীয় ক্লাস"
                     android:textColor="@color/white"
                     android:textSize="30sp"
                     android:textStyle="bold" />
@@ -37,7 +37,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/kalpurush"
-                    android:text="@string/a9"
+                    android:text="@string/a13"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="normal" />
@@ -51,7 +51,7 @@
                     android:fontFamily="@font/regular"
                     android:gravity="center"
                     android:padding="5dp"
-                    android:text="তো শুরু করা যাক আজকের ক্লাস (১ম ক্লাস)।"
+                    android:text="তো শুরু করা যাক আজকের ক্লাস (৩য় ক্লাস)।"
                     android:textColor="@color/white"
                     android:textSize="25sp"
                     android:textStyle="bold" />
@@ -61,10 +61,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="@string/a10"
+                    android:text="@string/a14"
+                    android:fontFamily="@font/kalpurush"
                     android:textColor="@color/black"
                     android:textSize="20sp"
-                    android:fontFamily="@font/kalpurush"
                     android:textStyle="normal" />
             </LinearLayout>
 
@@ -80,6 +80,5 @@
         android:layout_alignParentBottom="true"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent" />
-
 
 </RelativeLayout>
