@@ -225,7 +225,7 @@
                             android:layout_margin="5dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
-                            android:text="ইংরেজীতে কথা বলা (১ম ক্লাস)"
+                            android:text="ইংরেজীতে কথা বলা (৪র্থ ক্লাস)"
                             android:textColor="@color/black"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -263,7 +263,7 @@
                             android:layout_margin="5dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
-                            android:text="ইংরেজীতে কথা বলা (১ম ক্লাস)"
+                            android:text="ইংরেজীতে কথা বলা (৫ম ক্লাস)"
                             android:textColor="@color/black"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -312,7 +312,7 @@
                             android:layout_margin="5dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
-                            android:text="ইংরেজীতে কথা বলা (১ম ক্লাস)"
+                            android:text="ইংরেজীতে কথা বলা (৬ষ্ঠ ক্লাস)"
                             android:textColor="@color/black"
                             android:textSize="20sp"
                             android:textStyle="bold" />

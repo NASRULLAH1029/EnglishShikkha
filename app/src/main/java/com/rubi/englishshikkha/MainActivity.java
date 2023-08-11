@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
         super.onDestroy();
     }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -172,7 +173,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         layout_5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, info.class);
+                Intent intent = new Intent(MainActivity.this, class_4.class);
                 startActivity(intent);
                 Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
                 toast.show();
