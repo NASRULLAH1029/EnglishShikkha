@@ -40,13 +40,13 @@
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <com.airbnb.lottie.LottieAnimationView
+                        <de.hdodenhof.circleimageview.CircleImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            app:lottie_autoPlay="true"
-                            app:lottie_loop="true"
-                            android:layout_gravity="center"
-                            app:lottie_rawRes="@raw/animation" />
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
 
                         <TextView
@@ -66,7 +66,7 @@
                     <View
                         android:layout_width="2dp"
                         android:layout_height="match_parent"
-                        android:background="#A19C9C" />
+                        android:background="#00C853" />
 
 
                     <LinearLayout
@@ -78,13 +78,13 @@
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <com.airbnb.lottie.LottieAnimationView
+                        <de.hdodenhof.circleimageview.CircleImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            app:lottie_autoPlay="true"
-                            app:lottie_loop="true"
-                            android:layout_gravity="center"
-                            app:lottie_rawRes="@raw/animation" />
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
 
                         <TextView
@@ -108,7 +108,7 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="2dp"
-                    android:background="#A19C9C" />
+                    android:background="#00C853" />
 
 
                 <LinearLayout
@@ -126,13 +126,13 @@
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <com.airbnb.lottie.LottieAnimationView
+                        <de.hdodenhof.circleimageview.CircleImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            app:lottie_autoPlay="true"
-                            app:lottie_loop="true"
-                            android:layout_gravity="center"
-                            app:lottie_rawRes="@raw/animation" />
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
 
                         <TextView
@@ -152,7 +152,7 @@
                     <View
                         android:layout_width="2dp"
                         android:layout_height="match_parent"
-                        android:background="#A19C9C" />
+                        android:background="#00C853" />
 
                     <LinearLayout
                         android:id="@+id/btn_4"
@@ -164,13 +164,13 @@
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <com.airbnb.lottie.LottieAnimationView
+                        <de.hdodenhof.circleimageview.CircleImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            app:lottie_autoPlay="true"
-                            app:lottie_loop="true"
-                            android:layout_gravity="center"
-                            app:lottie_rawRes="@raw/animation" />
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
 
                         <TextView
@@ -194,7 +194,7 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="2dp"
-                    android:background="#A19C9C" />
+                    android:background="#00C853" />
 
 
                 <LinearLayout
@@ -211,13 +211,13 @@
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <com.airbnb.lottie.LottieAnimationView
+                        <de.hdodenhof.circleimageview.CircleImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            app:lottie_autoPlay="true"
-                            app:lottie_loop="true"
-                            android:layout_gravity="center"
-                            app:lottie_rawRes="@raw/animation" />
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -236,7 +236,7 @@
                     <View
                         android:layout_width="2dp"
                         android:layout_height="match_parent"
-                        android:background="#A19C9C" />
+                        android:background="#00C853" />
 
 
                     <LinearLayout
@@ -248,13 +248,13 @@
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <com.airbnb.lottie.LottieAnimationView
+                        <de.hdodenhof.circleimageview.CircleImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            app:lottie_autoPlay="true"
-                            app:lottie_loop="true"
-                            android:layout_gravity="center"
-                            app:lottie_rawRes="@raw/animation" />
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
 
                         <TextView
@@ -278,7 +278,7 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="2dp"
-                    android:background="#A19C9C" />
+                    android:background="#00C853" />
 
 
                 <LinearLayout
@@ -297,13 +297,13 @@
                         android:orientation="vertical">
 
 
-                        <com.airbnb.lottie.LottieAnimationView
+                        <de.hdodenhof.circleimageview.CircleImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            app:lottie_autoPlay="true"
-                            app:lottie_loop="true"
-                            android:layout_gravity="center"
-                            app:lottie_rawRes="@raw/animation" />
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
 
                         <TextView
@@ -323,7 +323,7 @@
                     <View
                         android:layout_width="2dp"
                         android:layout_height="match_parent"
-                        android:background="#A19C9C" />
+                        android:background="#00C853" />
 
                     <LinearLayout
                         android:id="@+id/btn_8"
@@ -335,13 +335,13 @@
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <com.airbnb.lottie.LottieAnimationView
+                        <de.hdodenhof.circleimageview.CircleImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            app:lottie_autoPlay="true"
-                            app:lottie_loop="true"
-                            android:layout_gravity="center"
-                            app:lottie_rawRes="@raw/animation" />
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
 
                         <TextView
@@ -350,7 +350,7 @@
                             android:layout_margin="5dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
-                            android:text="ইংরেজীতে কথা বলা (১ম ক্লাস)"
+                            android:text="ইংরেজীতে কথা বলা (৭ম ক্লাস)"
                             android:textColor="@color/black"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -365,7 +365,7 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="2dp"
-                    android:background="#A19C9C" />
+                    android:background="#00C853" />
 
 
                 <LinearLayout
@@ -382,13 +382,13 @@
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <com.airbnb.lottie.LottieAnimationView
+                        <de.hdodenhof.circleimageview.CircleImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            app:lottie_autoPlay="true"
-                            app:lottie_loop="true"
-                            android:layout_gravity="center"
-                            app:lottie_rawRes="@raw/animation" />
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
 
                         <TextView
@@ -397,7 +397,7 @@
                             android:layout_margin="5dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
-                            android:text="ইংরেজীতে কথা বলা (১ম ক্লাস)"
+                            android:text="ইংরেজীতে কথা বলা (৮ম ক্লাস)"
                             android:textColor="@color/black"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -408,7 +408,7 @@
                     <View
                         android:layout_width="2dp"
                         android:layout_height="match_parent"
-                        android:background="#A19C9C" />
+                        android:background="#00C853" />
 
 
                     <LinearLayout
@@ -420,13 +420,13 @@
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <com.airbnb.lottie.LottieAnimationView
+                        <de.hdodenhof.circleimageview.CircleImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            app:lottie_autoPlay="true"
-                            app:lottie_loop="true"
-                            android:layout_gravity="center"
-                            app:lottie_rawRes="@raw/animation" />
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
 
                         <TextView
@@ -435,7 +435,7 @@
                             android:layout_margin="5dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
-                            android:text="ইংরেজীতে কথা বলা (১ম ক্লাস)"
+                            android:text="ইংরেজীতে কথা বলা (৯ম ক্লাস)"
                             android:textColor="@color/black"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -450,7 +450,7 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="2dp"
-                    android:background="#A19C9C" />
+                    android:background="#00C853" />
 
 
                 <LinearLayout
@@ -468,13 +468,13 @@
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <com.airbnb.lottie.LottieAnimationView
+                        <de.hdodenhof.circleimageview.CircleImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            app:lottie_autoPlay="true"
-                            app:lottie_loop="true"
-                            android:layout_gravity="center"
-                            app:lottie_rawRes="@raw/animation" />
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
 
                         <TextView
@@ -483,7 +483,7 @@
                             android:layout_margin="5dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
-                            android:text="ইংরেজীতে কথা বলা (১ম ক্লাস)"
+                            android:text="ইংরেজীতে কথা বলা (১০ম ক্লাস)"
                             android:textColor="@color/black"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -494,7 +494,7 @@
                     <View
                         android:layout_width="2dp"
                         android:layout_height="match_parent"
-                        android:background="#A19C9C" />
+                        android:background="#00C853" />
 
                     <LinearLayout
                         android:id="@+id/btn_12"
@@ -506,13 +506,13 @@
                         android:gravity="center"
                         android:orientation="vertical">
 
-                        <com.airbnb.lottie.LottieAnimationView
+                        <de.hdodenhof.circleimageview.CircleImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
-                            app:lottie_autoPlay="true"
-                            app:lottie_loop="true"
-                            android:layout_gravity="center"
-                            app:lottie_rawRes="@raw/animation" />
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
 
 
                         <TextView
@@ -521,7 +521,7 @@
                             android:layout_margin="5dp"
                             android:fontFamily="@font/regular"
                             android:gravity="center"
-                            android:text="ইংরেজীতে কথা বলা (১ম ক্লাস)"
+                            android:text="ইংরেজীতে কথা বলা (১১তম ক্লাস)"
                             android:textColor="@color/black"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -535,7 +535,855 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="2dp"
-                    android:background="#A19C9C" />
+                    android:background="#00C853" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="20">
+
+                    <LinearLayout
+                        android:id="@+id/btn_13"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/regular"
+                            android:gravity="center"
+                            android:text="ইংরেজীতে কথা বলা (১২তম ক্লাস)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:background="#00C853" />
+
+
+                    <LinearLayout
+                        android:id="@+id/btn_14"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/regular"
+                            android:gravity="center"
+                            android:text="ইংরেজীতে কথা বলা (১৩তম ক্লাস)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#00C853" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="20">
+
+                    <LinearLayout
+                        android:id="@+id/btn_15"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/regular"
+                            android:gravity="center"
+                            android:text="ইংরেজীতে কথা বলা (১৪তম ক্লাস)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:background="#00C853" />
+
+                    <LinearLayout
+                        android:id="@+id/btn_16"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/regular"
+                            android:gravity="center"
+                            android:text="ইংরেজীতে কথা বলা (১৫তম ক্লাস)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#00C853" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="20">
+
+                    <LinearLayout
+                        android:id="@+id/btn_17"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/regular"
+                            android:gravity="center"
+                            android:text="ইংরেজীতে কথা বলা (১৬তম ক্লাস)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:background="#00C853" />
+
+
+                    <LinearLayout
+                        android:id="@+id/btn_18"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/regular"
+                            android:gravity="center"
+                            android:text="ইংরেজীতে কথা বলা (১৭তম ক্লাস)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#00C853" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="20">
+
+                    <LinearLayout
+                        android:id="@+id/btn_19"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/regular"
+                            android:gravity="center"
+                            android:text="ইংরেজীতে কথা বলা (১৮তম ক্লাস)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:background="#00C853" />
+
+                    <LinearLayout
+                        android:id="@+id/btn_20"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/regular"
+                            android:gravity="center"
+                            android:text="ইংরেজীতে কথা বলা (১৯তম ক্লাস)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#00C853" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="20">
+
+                    <LinearLayout
+                        android:id="@+id/btn_21"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/regular"
+                            android:gravity="center"
+                            android:text="ইংরেজীতে কথা বলা (২০তম ক্লাস)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:background="#00C853" />
+
+
+                    <LinearLayout
+                        android:id="@+id/btn_22"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/regular"
+                            android:gravity="center"
+                            android:text="ইংরেজীতে কথা বলা (২১তম ক্লাস)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#00C853" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="20">
+
+                    <LinearLayout
+                        android:id="@+id/btn_23"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/regular"
+                            android:gravity="center"
+                            android:text="ইংরেজীতে কথা বলা (২২তম ক্লাস)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:background="#00C853" />
+
+                    <LinearLayout
+                        android:id="@+id/btn_24"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/regular"
+                            android:gravity="center"
+                            android:text="ইংরেজীতে কথা বলা (২৩তম ক্লাস)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#00C853" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="20">
+
+                    <LinearLayout
+                        android:id="@+id/btn_25"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/regular"
+                            android:gravity="center"
+                            android:text="ইংরেজীতে কথা বলা (২৪তম ক্লাস)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:background="#00C853" />
+
+
+                    <LinearLayout
+                        android:id="@+id/btn_26"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/regular"
+                            android:gravity="center"
+                            android:text="ইংরেজীতে কথা বলা (২৫ম ক্লাস)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#00C853" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="20">
+
+                    <LinearLayout
+                        android:id="@+id/btn_27"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/regular"
+                            android:gravity="center"
+                            android:text="ইংরেজীতে কথা বলা (২৬তম ক্লাস)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:background="#00C853" />
+
+                    <LinearLayout
+                        android:id="@+id/btn_28"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/regular"
+                            android:gravity="center"
+                            android:text="ইংরেজীতে কথা বলা (২৭তম ক্লাস)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#00C853" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="20">
+
+                    <LinearLayout
+                        android:id="@+id/btn_29"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/regular"
+                            android:gravity="center"
+                            android:text="ইংরেজীতে কথা বলা (২৮তম ক্লাস)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:background="#00C853" />
+
+
+                    <LinearLayout
+                        android:id="@+id/btn_30"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/regular"
+                            android:gravity="center"
+                            android:text="ইংরেজীতে কথা বলা (২৯তম ক্লাস)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#00C853" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="20">
+
+                    <LinearLayout
+                        android:id="@+id/btn_31"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/regular"
+                            android:gravity="center"
+                            android:text="ইংরেজীতে কথা বলা (৩০তম ক্লাস)"
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="2dp"
+                        android:layout_height="match_parent"
+                        android:background="#00C853" />
+
+
+                    <LinearLayout
+                        android:id="@+id/btn_32"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:foreground="@drawable/effect"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/book_logo"
+                            app:civ_border_color="#FFFFFF"
+                            app:civ_border_width="2dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:fontFamily="@font/regular"
+                            android:gravity="center"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#00C853" />
 
 
             </LinearLayout>
