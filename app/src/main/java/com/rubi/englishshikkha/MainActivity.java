@@ -299,7 +299,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         layout_14.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_13.class);
+                Intent intent = new Intent(MainActivity.this, class_12.class);
                 startActivity(intent);
                 Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
                 toast.show();

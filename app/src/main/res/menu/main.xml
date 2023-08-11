@@ -10,8 +10,8 @@
     <item
         android:id="@+id/share"
         android:title="সেয়ার করুন"
-        android:icon="@drawable/ic_share"
-        app:showAsAction="never" />
+        android:icon="@drawable/share"
+        app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/more"
