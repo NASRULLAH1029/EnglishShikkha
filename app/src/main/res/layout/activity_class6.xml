@@ -38,7 +38,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/kalpurush"
-                    android:text=""
+                    android:text="@string/a19"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="normal" />
@@ -62,7 +62,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text=""
+                    android:text="@string/a20"
                     android:fontFamily="@font/kalpurush"
                     android:textColor="@color/black"
                     android:textSize="20sp"
