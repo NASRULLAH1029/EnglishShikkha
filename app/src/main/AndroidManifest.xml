@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-
     <uses-feature
         android:name="android.hardware.telephony"
         android:required="false" />
@@ -22,6 +21,60 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:targetApi="31">
+        <activity
+            android:name=".class_30"
+            android:exported="false" />
+        <activity
+            android:name=".class_29"
+            android:exported="false" />
+        <activity
+            android:name=".class_28"
+            android:exported="false" />
+        <activity
+            android:name=".class_27"
+            android:exported="false" />
+        <activity
+            android:name=".class_26"
+            android:exported="false" />
+        <activity
+            android:name=".class_25"
+            android:exported="false" />
+        <activity
+            android:name=".class_24"
+            android:exported="false" />
+        <activity
+            android:name=".class_23"
+            android:exported="false" />
+        <activity
+            android:name=".class_22"
+            android:exported="false" />
+        <activity
+            android:name=".class_21"
+            android:exported="false" />
+        <activity
+            android:name=".class_20"
+            android:exported="false" />
+        <activity
+            android:name=".class_19"
+            android:exported="false" />
+        <activity
+            android:name=".class_18"
+            android:exported="false" />
+        <activity
+            android:name=".class_17"
+            android:exported="false" />
+        <activity
+            android:name=".class_16"
+            android:exported="false" />
+        <activity
+            android:name=".class_15"
+            android:exported="false" />
+        <activity
+            android:name=".class_14"
+            android:exported="false" />
+        <activity
+            android:name=".class_13"
+            android:exported="false" />
         <activity
             android:name=".class_12"
             android:exported="false" />
