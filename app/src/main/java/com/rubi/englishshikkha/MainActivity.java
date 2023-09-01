@@ -20,7 +20,9 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
 import com.facebook.ads.Ad;
 import com.facebook.ads.AdError;
@@ -159,51 +161,52 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         list.add(new RecipeModel(R.drawable.book_logo, "A দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
         list.add(new RecipeModel(R.drawable.book_logo, "B দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
         list.add(new RecipeModel(R.drawable.book_logo, "C দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
-        list.add(new RecipeModel(R.drawable.book_logo, "Dদিয়ে প্রয়োজনীয় শব্দের অর্থ"));
-        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
-        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
-        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
-        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
-        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
-        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
-        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
-        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
-        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
-        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
-        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
-        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
-        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
-        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
-        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
-        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
-        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
-        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
-        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
-        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
-        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
-        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
-        list.add(new RecipeModel(R.drawable.book_logo, ""));
-        list.add(new RecipeModel(R.drawable.book_logo, ""));
-        list.add(new RecipeModel(R.drawable.book_logo, ""));
-        list.add(new RecipeModel(R.drawable.book_logo, ""));
-        list.add(new RecipeModel(R.drawable.book_logo, ""));
-        list.add(new RecipeModel(R.drawable.book_logo, ""));
-        list.add(new RecipeModel(R.drawable.book_logo, ""));
-        list.add(new RecipeModel(R.drawable.book_logo, ""));
+        list.add(new RecipeModel(R.drawable.book_logo, "D দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "E দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "F দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "G দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "H দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "I দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "J দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "K দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "L দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "M দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "N দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "O দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "P দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "Q দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "R দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "S দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "T দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "U দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "V দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "W দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "X দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "Y দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "Z দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "কথোপকথন শুরু করতে"));
+        list.add(new RecipeModel(R.drawable.book_logo, "আত্ম-পরিচয়"));
+        list.add(new RecipeModel(R.drawable.book_logo, "উপদেশ মূলক কথোপকথোন"));
+        list.add(new RecipeModel(R.drawable.book_logo, "সাধারন কথোপকথোন"));
+        list.add(new RecipeModel(R.drawable.book_logo, "হোটেল রেস্টুরেন্ট কথোপকথন"));
+        list.add(new RecipeModel(R.drawable.book_logo, "দিক নির্দেশনা মূলক কথোপকথোন"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ভালোবাসা সম্পর্কিত কথোপকথোন"));
+        list.add(new RecipeModel(R.drawable.book_logo, "মিটিং সম্পর্কিত কথোপকথোন"));
+        list.add(new RecipeModel(R.drawable.book_logo, "প্রেজেন্টেশন কথোপকথোন"));
 
 
         RecipeAdapter adapter = new RecipeAdapter(list, this);
         recyclerView.setAdapter(adapter);
 
         //StaggeredGridLayoutManager staggeredGridLayoutManager = new StaggeredGridLayoutManager(4,StaggeredGridLayoutManager.HORIZONTAL);
-        // recyclerView.setLayoutManager(staggeredGridLayoutManager);
+         //recyclerView.setLayoutManager(staggeredGridLayoutManager);
 
 
         //LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         //recyclerView.setLayoutManager(layoutManager);
 
 
-        // LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+        //LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
         //recyclerView.setLayoutManager(layoutManager);
 
         GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 2);
