@@ -19,6 +19,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.facebook.ads.Ad;
 import com.facebook.ads.AdError;
@@ -28,10 +30,15 @@ import com.facebook.ads.AudienceNetworkAds;
 import com.facebook.ads.InterstitialAd;
 import com.facebook.ads.InterstitialAdListener;
 import com.google.android.material.navigation.NavigationView;
+import com.rubi.englishshikkha.Adapters.RecipeAdapter;
+import com.rubi.englishshikkha.Classes.RecyclerItemClickListener;
+import com.rubi.englishshikkha.Models.RecipeModel;
+
+import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
-    LinearLayout layout_1, layout_2, layout_3, layout_4, layout_5, layout_6, layout_7, layout_8, layout_9, layout_10, layout_11, layout_12, layout_13, layout_14, layout_15, layout_16, layout_17, layout_18, layout_19, layout_20, layout_21, layout_22, layout_23, layout_24, layout_25, layout_26, layout_27, layout_28, layout_29, layout_30, layout_31;
+    RecyclerView recyclerView;
     private AdView adView;
     private InterstitialAd interstitialAd;
     private final String TAG = MainActivity.class.getSimpleName();
@@ -51,7 +58,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
         facebookAds();
     }
@@ -108,377 +114,120 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-
-        layout_1 = (LinearLayout) findViewById(R.id.btn_1);
-        layout_2 = (LinearLayout) findViewById(R.id.btn_2);
-        layout_3 = (LinearLayout) findViewById(R.id.btn_3);
-        layout_4 = (LinearLayout) findViewById(R.id.btn_4);
-        layout_5 = (LinearLayout) findViewById(R.id.btn_5);
-        layout_6 = (LinearLayout) findViewById(R.id.btn_6);
-        layout_7 = (LinearLayout) findViewById(R.id.btn_7);
-        layout_8 = (LinearLayout) findViewById(R.id.btn_8);
-        layout_9 = (LinearLayout) findViewById(R.id.btn_9);
-        layout_10 = (LinearLayout) findViewById(R.id.btn_10);
-        layout_11 = (LinearLayout) findViewById(R.id.btn_11);
-        layout_12 = (LinearLayout) findViewById(R.id.btn_12);
-        layout_13 = (LinearLayout) findViewById(R.id.btn_13);
-        layout_14 = (LinearLayout) findViewById(R.id.btn_14);
-        layout_15 = (LinearLayout) findViewById(R.id.btn_15);
-        layout_16 = (LinearLayout) findViewById(R.id.btn_16);
-        layout_17 = (LinearLayout) findViewById(R.id.btn_17);
-        layout_18 = (LinearLayout) findViewById(R.id.btn_18);
-        layout_19 = (LinearLayout) findViewById(R.id.btn_19);
-        layout_20 = (LinearLayout) findViewById(R.id.btn_20);
-        layout_21 = (LinearLayout) findViewById(R.id.btn_21);
-        layout_22 = (LinearLayout) findViewById(R.id.btn_22);
-        layout_23 = (LinearLayout) findViewById(R.id.btn_23);
-        layout_24 = (LinearLayout) findViewById(R.id.btn_24);
-        layout_25 = (LinearLayout) findViewById(R.id.btn_25);
-        layout_26 = (LinearLayout) findViewById(R.id.btn_26);
-        layout_27 = (LinearLayout) findViewById(R.id.btn_27);
-        layout_28 = (LinearLayout) findViewById(R.id.btn_28);
-        layout_29 = (LinearLayout) findViewById(R.id.btn_29);
-        layout_30 = (LinearLayout) findViewById(R.id.btn_30);
-        layout_31 = (LinearLayout) findViewById(R.id.btn_31);
+        recyclerView = findViewById(R.id.recyclerView);
+        ArrayList<RecipeModel> list = new ArrayList<>();
+        list.add(new RecipeModel(R.drawable.book_logo, "ক্লাস সম্পর্কে প্রয়োজনীয় কিছু কথা"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১ম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (২য় ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (৩য় ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (৪র্থ ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (৫ম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (৬ষ্ঠ ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (৭ম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (৮ম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (৯ম ক্লাস)"));
+        //list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১০ম ক্লাস)"));
+        // list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১১তম ক্লাস)"));
+        //list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১২তম ক্লাস)"));
+        // list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১৩তম ক্লাস)"));
+        // list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১৪তম ক্লাস)"));
+        //list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১৫তম ক্লাস)"));
+        //list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১৬তম ক্লাস)"));
+        //list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১৭তম ক্লাস)"));
+        //list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১৮তম ক্লাস)"));
+        //list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১৯তম ক্লাস)"));
+        //list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (২০তম ক্লাস)"));
 
 
-        layout_1.setOnClickListener(new View.OnClickListener() {
+        RecipeAdapter adapter = new RecipeAdapter(list, this);
+        recyclerView.setAdapter(adapter);
+
+        //StaggeredGridLayoutManager staggeredGridLayoutManager = new StaggeredGridLayoutManager(4,StaggeredGridLayoutManager.HORIZONTAL);
+        // recyclerView.setLayoutManager(staggeredGridLayoutManager);
+
+
+        //LinearLayoutManager layoutManager = new LinearLayoutManager(this);
+        //recyclerView.setLayoutManager(layoutManager);
+
+
+        // LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
+        //recyclerView.setLayoutManager(layoutManager);
+
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 2);
+        recyclerView.setLayoutManager(gridLayoutManager);
+
+        recyclerView.addOnItemTouchListener(new RecyclerItemClickListener(
+                this, recyclerView, new RecyclerItemClickListener.OnItemClickListener() {
             @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Fast_Activity.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
+            public void onItemClick(View view, int position) {
+                switch (position) {
+                    case 0:
+                        Intent intent = new Intent(MainActivity.this, Fast_Activity.class);
+                        startActivity(intent);
+                        break;
+
+                    case 1:
+                        Intent intent1 = new Intent(MainActivity.this, class_1.class);
+                        startActivity(intent1);
+                        break;
+
+                    case 2:
+                        Intent intent2 = new Intent(MainActivity.this, class_2.class);
+                        startActivity(intent2);
+                        break;
+
+
+                    case 3:
+                        Intent intent3 = new Intent(MainActivity.this, calss_3.class);
+                        startActivity(intent3);
+                        break;
+
+
+                    case 4:
+                        Intent intent4 = new Intent(MainActivity.this, class_4.class);
+                        startActivity(intent4);
+                        break;
+
+                    case 5:
+                        Intent intent5 = new Intent(MainActivity.this, class_5.class);
+                        startActivity(intent5);
+                        break;
+
+
+                    case 6:
+                        Intent intent6 = new Intent(MainActivity.this, class_6.class);
+                        startActivity(intent6);
+                        break;
+
+
+                    case 7:
+                        Intent intent7 = new Intent(MainActivity.this, class_7.class);
+                        startActivity(intent7);
+                        break;
+
+
+                    case 8:
+                        Intent intent8 = new Intent(MainActivity.this, class_8.class);
+                        startActivity(intent8);
+                        break;
+
+
+                    case 9:
+                        Intent intent9 = new Intent(MainActivity.this, class_9.class);
+                        startActivity(intent9);
+                        break;
+
+                    default:
+                }
 
             }
-        });
 
-        layout_2.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_1.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
+            public void onLongItemClick(View view, int position) {
 
             }
-        });
-
-
-        layout_3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_2.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-
-
-        layout_4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, calss_3.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-
-
-        layout_5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_4.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-
-
-        layout_6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_5.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-
-
-        layout_7.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_6.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-
-
-        layout_8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_7.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-
-
-        layout_9.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_8.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-
-
-        layout_10.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_9.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-
-
-        layout_11.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_10.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-
-
-        layout_12.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_11.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-
-
-        layout_13.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_12.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-
-        layout_14.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_13.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-
-        layout_15.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_14.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-
-        layout_16.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_15.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-        layout_17.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_16.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-        layout_18.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_17.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-        layout_19.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_18.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-        layout_20.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_19.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-        layout_21.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_20.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-        layout_22.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_21.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-        layout_23.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_22.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-        layout_24.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_23.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-        layout_25.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_24.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-        layout_26.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_25.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-        layout_27.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_26.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-        layout_28.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_27.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-        layout_29.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_28.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-        layout_30.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_29.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-        layout_31.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, class_30.class);
-                startActivity(intent);
-                Toast toast = Toast.makeText(getApplicationContext(), "please wait...", Toast.LENGTH_SHORT);
-                toast.show();
-
-            }
-        });
-
+        }
+        ));
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);

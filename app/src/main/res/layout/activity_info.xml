@@ -47,7 +47,7 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="90dp"
-                            android:background="#00C853">
+                            android:background="@color/colorPrimary">
 
 
                         </LinearLayout>
@@ -72,7 +72,7 @@
                                 <ImageView
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:background="#00C853"
+                                    android:background="@color/colorPrimary"
                                     android:scaleType="fitXY"
                                     android:src="@drawable/my_logo" />
 
@@ -123,6 +123,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_marginTop="2dp"
+                                    android:fontFamily="@font/ff"
                                     android:gravity="center"
                                     android:text="Android App Developer"
                                     android:textColor="#737171"
@@ -146,11 +147,14 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:layout_marginStart="5dp"
                                     android:layout_marginLeft="5dp"
+                                    android:fontFamily="@font/ff"
                                     android:text="+8801723261029"
                                     android:textColor="#424040"
                                     android:textIsSelectable="true"
-                                    android:textSize="18sp" />
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
 
 
                             </LinearLayout>
@@ -169,12 +173,14 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:layout_marginStart="5dp"
                                     android:layout_marginLeft="5dp"
-                                    android:fontFamily="@font/kalpurush"
+                                    android:fontFamily="@font/ff"
                                     android:text="@string/nav_header_subtitle"
                                     android:textColor="#3E3D3D"
                                     android:textIsSelectable="true"
-                                    android:textSize="18dp" />
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
 
 
                             </LinearLayout>
@@ -193,12 +199,14 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
+                                    android:layout_marginStart="5dp"
                                     android:layout_marginLeft="5dp"
-                                    android:fontFamily="@font/kalpurush"
+                                    android:fontFamily="@font/ff"
                                     android:text="Grameen Bank Road, Patharghata"
                                     android:textColor="#353434"
                                     android:textIsSelectable="true"
-                                    android:textSize="18dp" />
+                                    android:textSize="18sp"
+                                    android:textStyle="bold" />
 
 
                             </LinearLayout>
@@ -212,7 +220,7 @@
                                 android:layout_marginHorizontal="80dp"
                                 android:layout_marginTop="10dp"
                                 android:layout_marginBottom="20dp"
-                                android:backgroundTint="#00C853"
+                                android:backgroundTint="@color/colorPrimary"
                                 app:cardCornerRadius="15dp"
                                 app:cardElevation="5dp"
 
@@ -231,11 +239,11 @@
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:fontFamily="@font/kalpurush"
+                                        android:fontFamily="@font/ff"
                                         android:text="Call me"
                                         android:textColor="#F6F5F5"
                                         android:textSize="20sp"
-                                        android:textStyle="normal" />
+                                        android:textStyle="bold" />
 
                                     <com.airbnb.lottie.LottieAnimationView
 
@@ -257,7 +265,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="2dp"
                             android:layout_alignParentBottom="true"
-                            android:background="#00C853" />
+                            android:background="@color/colorPrimary" />
                     </RelativeLayout>
 
 
@@ -267,7 +275,7 @@
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="#00C853" />
+                    android:background="@color/colorPrimary" />
 
 
             </LinearLayout>
