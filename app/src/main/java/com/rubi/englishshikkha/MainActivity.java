@@ -126,17 +126,70 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (৭ম ক্লাস)"));
         list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (৮ম ক্লাস)"));
         list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (৯ম ক্লাস)"));
-        //list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১০ম ক্লাস)"));
-        // list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১১তম ক্লাস)"));
-        //list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১২তম ক্লাস)"));
-        // list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১৩তম ক্লাস)"));
-        // list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১৪তম ক্লাস)"));
-        //list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১৫তম ক্লাস)"));
-        //list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১৬তম ক্লাস)"));
-        //list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১৭তম ক্লাস)"));
-        //list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১৮তম ক্লাস)"));
-        //list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১৯তম ক্লাস)"));
-        //list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (২০তম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১০ম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১১তম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১২তম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১৩তম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১৪তম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১৫তম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১৬তম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১৭তম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১৮তম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (১৯তম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (২০তম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (২১তম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (২২তম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (২৩তম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (২৪তম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (২৫তম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (২৬তম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (২৭তম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (২৮তম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (২৯তম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (৩০তম ক্লাস)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "স্পোকেন ইংলিশ\n Lesson-1"));
+        list.add(new RecipeModel(R.drawable.book_logo, "স্পোকেন ইংলিশ\n Lesson-2"));
+        list.add(new RecipeModel(R.drawable.book_logo, "স্পোকেন ইংলিশ\n Lesson-3"));
+        list.add(new RecipeModel(R.drawable.book_logo, "স্পোকেন ইংলিশ\n Lesson-4"));
+        list.add(new RecipeModel(R.drawable.book_logo, "স্পোকেন ইংলিশ\n Lesson-5"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলার ফর্মূলা (১-৩০)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলার ফর্মূলা (৩১-৬০)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলার ফর্মূলা (৬১-৯০)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলার ফর্মূলা (৯১-১২৫)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "A দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "B দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "C দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "Dদিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, "দিয়ে প্রয়োজনীয় শব্দের অর্থ"));
+        list.add(new RecipeModel(R.drawable.book_logo, ""));
+        list.add(new RecipeModel(R.drawable.book_logo, ""));
+        list.add(new RecipeModel(R.drawable.book_logo, ""));
+        list.add(new RecipeModel(R.drawable.book_logo, ""));
+        list.add(new RecipeModel(R.drawable.book_logo, ""));
+        list.add(new RecipeModel(R.drawable.book_logo, ""));
+        list.add(new RecipeModel(R.drawable.book_logo, ""));
+        list.add(new RecipeModel(R.drawable.book_logo, ""));
 
 
         RecipeAdapter adapter = new RecipeAdapter(list, this);
@@ -216,6 +269,127 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         Intent intent9 = new Intent(MainActivity.this, class_9.class);
                         startActivity(intent9);
                         break;
+
+                    case 10:
+                        Intent intent10 = new Intent(MainActivity.this, class_10.class);
+                        startActivity(intent10);
+                        break;
+
+                    case 11:
+                        Intent intent11 = new Intent(MainActivity.this, class_11.class);
+                        startActivity(intent11);
+                        break;
+
+                    case 12:
+                        Intent intent12 = new Intent(MainActivity.this, class_12.class);
+                        startActivity(intent12);
+                        break;
+
+                    case 13:
+                        Intent intent13 = new Intent(MainActivity.this, class_13.class);
+                        startActivity(intent13);
+                        break;
+
+
+                    case 14:
+                        Intent intent14 = new Intent(MainActivity.this, class_14.class);
+                        startActivity(intent14);
+                        break;
+
+
+                    case 15:
+                        Intent intent15 = new Intent(MainActivity.this, class_15.class);
+                        startActivity(intent15);
+                        break;
+
+                    case 16:
+                        Intent intent16 = new Intent(MainActivity.this, class_16.class);
+                        startActivity(intent16);
+                        break;
+
+
+                    case 17:
+                        Intent intent17 = new Intent(MainActivity.this, class_17.class);
+                        startActivity(intent17);
+                        break;
+
+                    case 18:
+                        Intent intent18 = new Intent(MainActivity.this, class_18.class);
+                        startActivity(intent18);
+                        break;
+
+                    case 19:
+                        Intent intent19 = new Intent(MainActivity.this, class_19.class);
+                        startActivity(intent19);
+                        break;
+
+
+                    case 20:
+                        Intent intent20 = new Intent(MainActivity.this, class_20.class);
+                        startActivity(intent20);
+                        break;
+
+
+                    case 21:
+                        Intent intent21 = new Intent(MainActivity.this, class_21.class);
+                        startActivity(intent21);
+                        break;
+
+
+                    case 22:
+                        Intent intent22 = new Intent(MainActivity.this, class_22.class);
+                        startActivity(intent22);
+                        break;
+
+
+                    case 23:
+                        Intent intent23 = new Intent(MainActivity.this, class_23.class);
+                        startActivity(intent23);
+                        break;
+
+
+                    case 24:
+                        Intent intent24 = new Intent(MainActivity.this, class_24.class);
+                        startActivity(intent24);
+                        break;
+
+
+                    case 25:
+                        Intent intent25 = new Intent(MainActivity.this, class_25.class);
+                        startActivity(intent25);
+                        break;
+
+
+                    case 26:
+                        Intent intent26 = new Intent(MainActivity.this, class_26.class);
+                        startActivity(intent26);
+                        break;
+
+
+                    case 27:
+                        Intent intent27 = new Intent(MainActivity.this, class_27.class);
+                        startActivity(intent27);
+                        break;
+
+                    case 28:
+                        Intent intent28 = new Intent(MainActivity.this, class_28.class);
+                        startActivity(intent28);
+                        break;
+
+
+                    case 29:
+                        Intent intent29 = new Intent(MainActivity.this, class_29.class);
+                        startActivity(intent29);
+                        break;
+
+
+                    case 30:
+                        Intent intent30 = new Intent(MainActivity.this, class_30.class);
+                        startActivity(intent30);
+                        break;
+
+
+
 
                     default:
                 }
