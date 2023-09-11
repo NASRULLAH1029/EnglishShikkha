@@ -19,15 +19,11 @@ public class Splash extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-
-
         text1 = findViewById(R.id.text1);
-
 
         Splash_bottom = AnimationUtils.loadAnimation(this, R.anim.bottom_anim);
 
         text1.setAnimation(Splash_bottom);
-
 
 
         //For Splash Screen

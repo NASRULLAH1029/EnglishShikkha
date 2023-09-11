@@ -149,11 +149,11 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (২৮তম ক্লাস)"));
         list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (২৯তম ক্লাস)"));
         list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলা (৩০তম ক্লাস)"));
-        list.add(new RecipeModel(R.drawable.book_logo, "স্পোকেন ইংলিশ\n Lesson-1"));
-        list.add(new RecipeModel(R.drawable.book_logo, "স্পোকেন ইংলিশ\n Lesson-2"));
-        list.add(new RecipeModel(R.drawable.book_logo, "স্পোকেন ইংলিশ\n Lesson-3"));
-        list.add(new RecipeModel(R.drawable.book_logo, "স্পোকেন ইংলিশ\n Lesson-4"));
-        list.add(new RecipeModel(R.drawable.book_logo, "স্পোকেন ইংলিশ\n Lesson-5"));
+        list.add(new RecipeModel(R.drawable.book_logo, "স্পোকেন ইংলিশ (Lesson-1)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "স্পোকেন ইংলিশ (Lesson-2)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "স্পোকেন ইংলিশ (Lesson-3)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "স্পোকেন ইংলিশ (Lesson-4)"));
+        list.add(new RecipeModel(R.drawable.book_logo, "স্পোকেন ইংলিশ (Lesson-5)"));
         list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলার ফর্মূলা (১-৩০)"));
         list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলার ফর্মূলা (৩১-৬০)"));
         list.add(new RecipeModel(R.drawable.book_logo, "ইংরেজীতে কথা বলার ফর্মূলা (৬১-৯০)"));
@@ -209,7 +209,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         //LinearLayoutManager layoutManager = new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false);
         //recyclerView.setLayoutManager(layoutManager);
 
-        GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 2);
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 1);
         recyclerView.setLayoutManager(gridLayoutManager);
 
         recyclerView.addOnItemTouchListener(new RecyclerItemClickListener(
