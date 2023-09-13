@@ -27,7 +27,7 @@
                     android:background="@drawable/two_color_curved"
                     android:fontFamily="@font/regular"
                     android:gravity="center"
-                    android:text="চতুর্থ ক্লাস"
+                    android:text="৪র্থ ক্লাস"
                     android:textColor="@color/white"
                     android:textSize="30sp"
                     android:textStyle="bold" />
