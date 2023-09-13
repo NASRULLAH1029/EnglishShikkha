@@ -27,7 +27,7 @@
                     android:background="@drawable/two_color_curved"
                     android:fontFamily="@font/regular"
                     android:gravity="center"
-                    android:text=" ত্বিতীয় ক্লাস"
+                    android:text=" ৩য় ক্লাস"
                     android:textColor="@color/white"
                     android:textSize="30sp"
                     android:textStyle="bold" />

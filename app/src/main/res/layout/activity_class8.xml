@@ -52,7 +52,7 @@
                     android:fontFamily="@font/regular"
                     android:gravity="center"
                     android:padding="5dp"
-                    android:text="তো শুরু করা যাক আজকের ক্লাস ( ক্লাস)।"
+                    android:text="তো শুরু করা যাক আজকের ক্লাস (৮ম ক্লাস)।"
                     android:textColor="@color/white"
                     android:textSize="25sp"
                     android:textStyle="bold" />
