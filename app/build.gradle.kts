@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace = "com.rubi.englishshikkha"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.rubi.englishshikkha"
-        minSdk = 16
-        targetSdk = 33
+        minSdk = 21
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -40,4 +40,5 @@ dependencies {
     implementation("com.facebook.android:audience-network-sdk:6.+")
     implementation("de.hdodenhof:circleimageview:3.1.0")
     implementation("com.airbnb.android:lottie:6.0.0")
+    implementation ("com.android.volley:volley:1.2.1")
 }

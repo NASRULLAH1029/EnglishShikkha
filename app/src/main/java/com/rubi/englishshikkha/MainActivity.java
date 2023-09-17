@@ -61,58 +61,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        facebookAds();
-    }
-
-    private void facebookAds() {
-        AudienceNetworkAds.initialize(this);
-
-
-        adView = new AdView(this, "...................................", AdSize.BANNER_HEIGHT_50);
-        LinearLayout adContainer = (LinearLayout) findViewById(R.id.banner_container);
-        adContainer.addView(adView);
-        adView.loadAd();
-
-
-        interstitialAd = new InterstitialAd(this, "...........................");
-        InterstitialAdListener interstitialAdListener = new InterstitialAdListener() {
-            @Override
-            public void onInterstitialDisplayed(Ad ad) {
-                Log.e(TAG, "Interstitial ad displayed.");
-            }
-
-            @Override
-            public void onInterstitialDismissed(Ad ad) {
-                Log.e(TAG, "Interstitial ad dismissed.");
-            }
-
-            @Override
-            public void onError(Ad ad, AdError adError) {
-                Log.e(TAG, "Interstitial ad failed to load: " + adError.getErrorMessage());
-            }
-
-            @Override
-            public void onAdLoaded(Ad ad) {
-                Log.d(TAG, "Interstitial ad is loaded and ready to be displayed!");
-                interstitialAd.show();
-            }
-
-            @Override
-            public void onAdClicked(Ad ad) {
-                Log.d(TAG, "Interstitial ad clicked!");
-            }
-
-            @Override
-            public void onLoggingImpression(Ad ad) {
-                Log.d(TAG, "Interstitial ad impression logged!");
-            }
-        };
-
-        interstitialAd.loadAd(
-                interstitialAd.buildLoadAdConfig()
-                        .withAdListener(interstitialAdListener)
-                        .build());
-
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -199,7 +147,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         recyclerView.setAdapter(adapter);
 
         //StaggeredGridLayoutManager staggeredGridLayoutManager = new StaggeredGridLayoutManager(4,StaggeredGridLayoutManager.HORIZONTAL);
-         //recyclerView.setLayoutManager(staggeredGridLayoutManager);
+        //recyclerView.setLayoutManager(staggeredGridLayoutManager);
 
 
         //LinearLayoutManager layoutManager = new LinearLayoutManager(this);
@@ -392,8 +340,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         break;
 
 
-
-
                     default:
                 }
 
@@ -413,19 +359,91 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
+
+        facebookAds();
     }
 
+    private void facebookAds() {
+        AudienceNetworkAds.initialize(this);
+
+
+        adView = new AdView(this, "...................................", AdSize.BANNER_HEIGHT_50);
+        LinearLayout adContainer = (LinearLayout) findViewById(R.id.banner_container);
+        adContainer.addView(adView);
+        adView.loadAd();
+
+
+        interstitialAd = new InterstitialAd(this, "...........................");
+        InterstitialAdListener interstitialAdListener = new InterstitialAdListener() {
+            @Override
+            public void onInterstitialDisplayed(Ad ad) {
+                Log.e(TAG, "Interstitial ad displayed.");
+            }
+
+            @Override
+            public void onInterstitialDismissed(Ad ad) {
+                Log.e(TAG, "Interstitial ad dismissed.");
+            }
+
+            @Override
+            public void onError(Ad ad, AdError adError) {
+                Log.e(TAG, "Interstitial ad failed to load: " + adError.getErrorMessage());
+            }
+
+            @Override
+            public void onAdLoaded(Ad ad) {
+                Log.d(TAG, "Interstitial ad is loaded and ready to be displayed!");
+                interstitialAd.show();
+            }
+
+            @Override
+            public void onAdClicked(Ad ad) {
+                Log.d(TAG, "Interstitial ad clicked!");
+            }
+
+            @Override
+            public void onLoggingImpression(Ad ad) {
+                Log.d(TAG, "Interstitial ad impression logged!");
+            }
+        };
+
+        interstitialAd.loadAd(
+                interstitialAd.buildLoadAdConfig()
+                        .withAdListener(interstitialAdListener)
+                        .build());
+    }
 
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
-        }
+        //super.onBackPressed();
+
+        new AlertDialog.Builder(MainActivity.this)
+                .setTitle("Confirm Exit")
+                .setMessage("আ্যাপ থেকে বের হতে চান..? যদি আমাদের অ্যাপটি ভালো লাগে তাহলে অবশ্যই রেটিং দিয়ে আমাদের উৎসাহিত করবেন ধন্যবাদ")
+                .setIcon(R.drawable.exit)
+                .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        dialogInterface.dismiss();
+
+                    }
+                })
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        dialogInterface.dismiss();
+                        finishAndRemoveTask();
+                    }
+                })
+                .show();
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater menuInflater = getMenuInflater();
+        menuInflater.inflate(R.menu.main, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
@@ -452,12 +470,13 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setTitle("EXIT..?");
-            builder.setMessage("আ্যাপ থেকে বের হতে চান..?\nযদি আমাদের অ্যাপটি ভালো লাগে\n তাহলে অবশ্যই রেটিং দিয়ে \n আমাদের উৎসাহিত করবেন \n ধন্যবাদ")
+            builder.setMessage("আ্যাপ থেকে বের হতে চান..? যদি আমাদের অ্যাপটি ভালো লাগে তাহলে অবশ্যই রেটিং দিয়ে আমাদের উৎসাহিত করবেন ধন্যবাদ")
+                    .setIcon(R.drawable.exit)
                     .setCancelable(false)
                     .setPositiveButton("হ্যা", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
-                            MainActivity.super.onBackPressed();
+                            finishAndRemoveTask();
                         }
                     })
 
@@ -474,8 +493,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     Uri uri = Uri.parse("https://play.google.com/store/apps/developer?id=Rubi+Apps+BD" + getApplicationContext().getPackageName());
                     Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                     startActivity(intent);
-                    Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_LONG);
-                    toast.show();
 
                 }
             });
@@ -487,12 +504,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater menuInflater = getMenuInflater();
-        menuInflater.inflate(R.menu.main, menu);
-        return super.onCreateOptionsMenu(menu);
-    }
 
     public boolean onNavigationItemSelected(MenuItem item) {
         int id = item.getItemId();
@@ -523,12 +534,14 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         } else if (id == R.id.exit) {
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setTitle("EXIT..?");
-            builder.setMessage("আ্যাপ থেকে বের হতে চান..?\nযদি আমাদের অ্যাপটি ভালো লাগে\n তাহলে অবশ্যই রেটিং দিয়ে \n আমাদের উৎসাহিত করবেন \n ধন্যবাদ")
+            builder.setMessage("আ্যাপ থেকে বের হতে চান..? যদি আমাদের অ্যাপটি ভালো লাগে তাহলে অবশ্যই রেটিং দিয়ে আমাদের উৎসাহিত করবেন ধন্যবাদ")
+                    .setIcon(R.drawable.exit)
                     .setCancelable(false)
                     .setPositiveButton("হ্যা", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
-                            MainActivity.super.onBackPressed();
+                            dialog.dismiss();
+                            finishAndRemoveTask();
                         }
                     })
 
@@ -545,8 +558,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                     Uri uri = Uri.parse("https://play.google.com/store/apps/developer?id=Rubi+Apps+BD" + getApplicationContext().getPackageName());
                     Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                     startActivity(intent);
-                    Toast toast = Toast.makeText(getApplicationContext(), "বিসমিল্লাহির রাহমানির রাহীম", Toast.LENGTH_LONG);
-                    toast.show();
 
                 }
             });
@@ -557,6 +568,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         return true;
 
     }
+
 
 }
 
