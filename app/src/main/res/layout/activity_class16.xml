@@ -28,7 +28,7 @@
                     android:background="@drawable/two_color_curved"
                     android:fontFamily="@font/regular"
                     android:gravity="center"
-                    android:text=""
+                    android:text="১৬তম ক্লাস"
                     android:textColor="@color/white"
                     android:textSize="30sp"
                     android:textStyle="bold" />
@@ -39,7 +39,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/kalpurush"
-                    android:text=""
+                    android:text="@string/a39"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="normal" />
@@ -53,7 +53,7 @@
                     android:fontFamily="@font/regular"
                     android:gravity="center"
                     android:padding="5dp"
-                    android:text=""
+                    android:text="তো শুরু করা যাক আজকের ক্লাস (১৬ তম ক্লাস)।"
                     android:textColor="@color/white"
                     android:textSize="25sp"
                     android:textStyle="bold" />
@@ -64,7 +64,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:fontFamily="@font/kalpurush"
-                    android:text=""
+                    android:text="@string/a40"
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="normal" />
