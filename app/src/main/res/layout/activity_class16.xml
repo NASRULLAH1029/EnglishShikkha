@@ -30,7 +30,7 @@
                     android:gravity="center"
                     android:text="১৬তম ক্লাস"
                     android:textColor="@color/white"
-                    android:textSize="30sp"
+                    android:textSize="25sp"
                     android:textStyle="bold" />
 
                 <TextView
